@@ -124,27 +124,21 @@ def collect_to_daily_folder(results: list[tuple[int, str]]):
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: python3 generate_daily.py <start_day> [end_day] [-n count]")
-        print("  start_day       First day number")
-        print("  end_day         Last day number (default: same as start)")
-        print("  -n count        Only generate count videos from the range")
+        print("Usage: python3 generate_daily.py <start_day> [count]")
+        print("  start_day   Starting day number")
+        print("  count       Number of videos to generate (default: 7)")
+        print()
+        print("Examples:")
+        print("  python3 generate_daily.py 1      # Day 1~7")
+        print("  python3 generate_daily.py 8      # Day 8~14")
+        print("  python3 generate_daily.py 15 3   # Day 15~17")
         sys.exit(1)
 
-    args = sys.argv[1:]
-    count = None
-    if "-n" in args:
-        idx = args.index("-n")
-        count = int(args[idx + 1])
-        args = args[:idx] + args[idx + 2:]
+    start = int(sys.argv[1])
+    count = int(sys.argv[2]) if len(sys.argv) > 2 else 7
+    days = list(range(start, start + count))
 
-    start = int(args[0])
-    end = int(args[1]) if len(args) > 1 else start
-
-    days = list(range(start, end + 1))
-    if count is not None:
-        days = days[:count]
-
-    print(f"Generating {len(days)} videos (Day {days[0]} to Day {days[-1]})\n")
+    print(f"Generating {len(days)} videos (Day {days[0]} ~ Day {days[-1]})\n")
 
     # Load content plan to show topic names
     plan_path = DATA_DIR / "content_plan_365.csv"
