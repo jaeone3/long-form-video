@@ -1,16 +1,17 @@
-"""Generate videos for a given day range.
+"""Generate videos with auto state tracking.
 
 Usage:
-    python3 generate_daily.py <start_day> [end_day]
+    python3 generate_daily.py [count]
 
 Examples:
-    python3 generate_daily.py 1        # Generate Day 1 only
-    python3 generate_daily.py 1 7      # Generate Day 1-7
-    python3 generate_daily.py 1 7 -n 3 # Generate 3 videos from Day 1-7
+    python3 generate_daily.py       # Next 7 videos (auto)
+    python3 generate_daily.py 3     # Next 3 videos
+    python3 generate_daily.py 14    # Next 14 videos
 """
 import os
 import sys
 import csv
+import json
 import shutil
 from datetime import date
 from pathlib import Path
@@ -25,9 +26,33 @@ from video_assembler import create_concat_list, concatenate_segments
 BASE_DIR = Path(__file__).parent
 DATA_DIR = BASE_DIR / "data"
 OUTPUT_DIR = BASE_DIR / "output"
+STATE_FILE = BASE_DIR / "state.json"
 
 
-def generate_video_for_day(day: int):
+def load_state() -> dict:
+    """Load generation state. Returns dict with next_day and round."""
+    if STATE_FILE.exists():
+        return json.loads(STATE_FILE.read_text())
+    return {"next_day": 1, "round": 1, "history": []}
+
+
+def save_state(next_day: int, round_num: int, generated: list[int]):
+    """Save state with round tracking."""
+    state = load_state()
+    history = state.get("history", [])
+    history.append({
+        "date": date.today().isoformat(),
+        "round": round_num,
+        "days": generated,
+    })
+    STATE_FILE.write_text(json.dumps({
+        "next_day": next_day,
+        "round": round_num,
+        "history": history,
+    }, indent=2, ensure_ascii=False))
+
+
+def generate_video_for_day(day: int, round_num: int = 1):
     """Generate one complete video for a given day number (1-365)."""
 
     # Check if CSV exists for this day
@@ -36,8 +61,9 @@ def generate_video_for_day(day: int):
         print(f"  ⚠ CSV not found: {csv_path} — skipping Day {day}")
         return None
 
-    # Create day-specific output folder
-    day_dir = OUTPUT_DIR / f"day{day:03d}"
+    # Create day-specific output folder (round prefix if round > 1)
+    folder_name = f"day{day:03d}" if round_num == 1 else f"r{round_num}_day{day:03d}"
+    day_dir = OUTPUT_DIR / folder_name
     for subdir in ["tts", "frames", "segments"]:
         (day_dir / subdir).mkdir(parents=True, exist_ok=True)
 
@@ -49,8 +75,8 @@ def generate_video_for_day(day: int):
     # Clear flag cache for fresh rendering
     _flag_cache.clear()
 
-    # Get unique theme for this day
-    theme = get_theme_for_day(day)
+    # Get unique theme for this day + round
+    theme = get_theme_for_day(day, round_num)
 
     print(f"\n{'='*50}")
     print(f"  Day {day} — {theme.background}")
@@ -100,7 +126,8 @@ def generate_video_for_day(day: int):
     print(f"  [5/5] Concatenating...")
     concat_list = str(day_dir / "concat_list.txt")
     create_concat_list(segment_paths, concat_list)
-    final_path = str(day_dir / f"day{day:03d}_final.mp4")
+    final_name = f"day{day:03d}_final.mp4" if round_num == 1 else f"r{round_num}_day{day:03d}_final.mp4"
+    final_path = str(day_dir / final_name)
     concatenate_segments(concat_list, final_path)
     print(f"  ✅ Done! → {final_path}")
 
@@ -123,22 +150,23 @@ def collect_to_daily_folder(results: list[tuple[int, str]]):
 
 
 def main():
-    if len(sys.argv) < 2:
-        print("Usage: python3 generate_daily.py <start_day> [count]")
-        print("  start_day   Starting day number")
-        print("  count       Number of videos to generate (default: 7)")
-        print()
-        print("Examples:")
-        print("  python3 generate_daily.py 1      # Day 1~7")
-        print("  python3 generate_daily.py 8      # Day 8~14")
-        print("  python3 generate_daily.py 15 3   # Day 15~17")
-        sys.exit(1)
+    count = int(sys.argv[1]) if len(sys.argv) > 1 else 7
+    state = load_state()
+    start = state["next_day"]
+    round_num = state.get("round", 1)
 
-    start = int(sys.argv[1])
-    count = int(sys.argv[2]) if len(sys.argv) > 2 else 7
-    days = list(range(start, start + count))
+    # Build day list, wrapping around 365 for new rounds
+    days = []
+    for i in range(count):
+        day = start + i
+        if day > 365:
+            day = ((day - 1) % 365) + 1
+            if i == 0:
+                round_num += 1
+        days.append(day)
 
-    print(f"Generating {len(days)} videos (Day {days[0]} ~ Day {days[-1]})\n")
+    print(f"Round {round_num} — Generating {len(days)} videos (Day {days[0]} ~ Day {days[-1]})")
+    print(f"State: next_day was {start}\n")
 
     # Load content plan to show topic names
     plan_path = DATA_DIR / "content_plan_365.csv"
@@ -153,7 +181,7 @@ def main():
     for day in days:
         topic = topics.get(day, "Unknown topic")
         print(f"\n  Day {day}: {topic}")
-        path = generate_video_for_day(day)
+        path = generate_video_for_day(day, round_num)
         if path:
             results.append((day, path))
 
@@ -161,10 +189,19 @@ def main():
     if results:
         daily_dir = collect_to_daily_folder(results)
 
+    # Save state — next day to generate
+    next_day = start + len(days)
+    next_round = round_num
+    if next_day > 365:
+        next_day = ((next_day - 1) % 365) + 1
+        next_round += 1
+    save_state(next_day, next_round, days)
+
     print(f"\n{'='*50}")
     print(f"  Generated {len(results)} / {len(days)} videos")
     for day, path in results:
         print(f"  Day {day}: {path}")
+    print(f"  Next run: Round {next_round}, Day {next_day}")
     print(f"{'='*50}")
 
 

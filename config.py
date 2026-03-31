@@ -64,12 +64,13 @@ def _rgb_to_hex(r: int, g: int, b: int) -> str:
     return f"#{r:02x}{g:02x}{b:02x}"
 
 
-def get_theme_for_day(day: int) -> ColorTheme:
+def get_theme_for_day(day: int, round_num: int = 1) -> ColorTheme:
     """Generate a unique bright gradient theme for each day (1-365).
-    Uses higher saturation so every day is visibly different."""
+    Each round shifts the hue so rotations get fresh colors."""
 
-    # Full 360° hue rotation across 365 days
-    hue = (day * 360.0 / 365.0) % 360.0
+    # Shift hue by ~137.5° (golden angle) per round for maximum color distance
+    round_offset = (round_num - 1) * 137.508
+    hue = ((day * 360.0 / 365.0) + round_offset) % 360.0
 
     # Use both hue and slight lightness/saturation variation to guarantee uniqueness
     lightness = 0.90 + 0.04 * ((day * 7) % 17) / 16.0  # 0.90 ~ 0.94
@@ -96,7 +97,7 @@ def get_theme_for_day(day: int) -> ColorTheme:
     )
 
 
-def get_theme(index: int, video_seed: int = 0) -> ColorTheme:
+def get_theme(index: int, video_seed: int = 0, round_num: int = 1) -> ColorTheme:
     """Each video (day) gets one unique theme. All expressions in
     that video share the same background."""
-    return get_theme_for_day(video_seed % 365)
+    return get_theme_for_day(video_seed % 365, round_num)
