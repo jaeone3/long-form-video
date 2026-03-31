@@ -1,6 +1,7 @@
 import os
 import sys
 from pathlib import Path
+from datetime import date
 
 from config import TimingConfig, VideoConfig, FontConfig, TTSConfig, get_theme
 from data_loader import load_expressions
@@ -13,9 +14,14 @@ BASE_DIR = Path(__file__).parent
 OUTPUT_DIR = BASE_DIR / "output"
 
 
-def main(data_path: str = None):
+def main(data_path: str = None, video_seed: int = None):
     if data_path is None:
         data_path = str(BASE_DIR / "data" / "expressions.csv")
+
+    # Use date-based seed if not provided — ensures unique randomization per day
+    if video_seed is None:
+        today = date.today()
+        video_seed = today.year * 10000 + today.month * 100 + today.day
 
     timing = TimingConfig()
     video = VideoConfig()
@@ -29,7 +35,7 @@ def main(data_path: str = None):
     print("[1/5] Loading expressions...")
     expressions = load_expressions(data_path)
     total = len(expressions)
-    print(f"      Loaded {total} expressions.")
+    print(f"      Loaded {total} expressions. (seed={video_seed})")
 
     # Step 2: Generate TTS
     print("[2/5] Generating TTS audio...")
@@ -39,7 +45,7 @@ def main(data_path: str = None):
     print("[3/5] Rendering frames...")
     frame_paths = {}
     for expr in expressions:
-        theme = get_theme(expr.index)
+        theme = get_theme(expr.index, video_seed=video_seed)
         counter_text = f"{expr.index + 1} / {total}"
         progress = (expr.index + 1) / total
         frame_path = str(OUTPUT_DIR / "frames" / f"frame_{expr.index:03d}.png")
@@ -78,4 +84,5 @@ def main(data_path: str = None):
 
 if __name__ == "__main__":
     data_file = sys.argv[1] if len(sys.argv) > 1 else None
-    main(data_file)
+    seed = int(sys.argv[2]) if len(sys.argv) > 2 else None
+    main(data_file, seed)

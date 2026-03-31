@@ -14,7 +14,10 @@ def concatenate_segments(concat_list_path: str, output_path: str) -> str:
         "ffmpeg", "-y",
         "-f", "concat", "-safe", "0",
         "-i", concat_list_path.replace("\\", "/"),
-        "-c", "copy",
+        "-c:v", "libx264", "-crf", "23", "-preset", "medium",
+        "-c:a", "aac", "-b:a", "128k",
+        "-pix_fmt", "yuv420p",
+        "-movflags", "+faststart",
         output_path.replace("\\", "/"),
     ]
 

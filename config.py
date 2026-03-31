@@ -22,14 +22,14 @@ class VideoConfig:
 
 @dataclass
 class FontConfig:
-    korean_font: str = "C:/Windows/Fonts/malgunbd.ttf"
-    korean_size: int = 80
-    romanization_font: str = "C:/Windows/Fonts/malgun.ttf"
-    romanization_size: int = 40
-    english_font: str = "C:/Windows/Fonts/arial.ttf"
-    english_size: int = 36
-    counter_font: str = "C:/Windows/Fonts/arial.ttf"
-    counter_size: int = 28
+    korean_font: str = "/Users/jeongseojin/Library/Fonts/NanumSquareRoundOTFEB.otf"
+    korean_size: int = 130
+    romanization_font: str = "/Users/jeongseojin/Library/Fonts/NanumSquareRoundOTFR.otf"
+    romanization_size: int = 36
+    english_font: str = "/System/Library/Fonts/Avenir Next.ttc"
+    english_size: int = 50
+    counter_font: str = "/System/Library/Fonts/Avenir Next.ttc"
+    counter_size: int = 24
 
 
 @dataclass
@@ -53,19 +53,50 @@ class TTSConfig:
     speed: float = 1.0
 
 
-COLOR_THEMES = [
-    ColorTheme("#1a1a2e", "#ffffff", "#a0a0c0", "#808090", "#4ecca3", "#333355"),
-    ColorTheme("#16213e", "#ffffff", "#a0b0d0", "#7080a0", "#e94560", "#2a3a5e"),
-    ColorTheme("#0f3460", "#ffffff", "#90b0e0", "#6090c0", "#e94560", "#1a4a70"),
-    ColorTheme("#1b262c", "#ffffff", "#a0c0d0", "#7090a0", "#bbe1fa", "#2b3a42"),
-    ColorTheme("#2d2d2d", "#ffffff", "#c0c0c0", "#909090", "#f0a500", "#444444"),
-    ColorTheme("#1a1a2e", "#ffffff", "#c0a0c0", "#9080a0", "#e056a0", "#333355"),
-    ColorTheme("#162e21", "#ffffff", "#a0d0b0", "#70a080", "#45e960", "#2a5e3a"),
-    ColorTheme("#2e1a1a", "#ffffff", "#d0a0a0", "#a07070", "#e96045", "#553333"),
-    ColorTheme("#1a2e2e", "#ffffff", "#a0c0d0", "#709090", "#45c5e9", "#2a4a55"),
-    ColorTheme("#2e2e1a", "#ffffff", "#d0d0a0", "#a0a070", "#e9e045", "#555533"),
-]
+def _hsl_to_rgb(h: float, s: float, l: float) -> tuple[int, int, int]:
+    """Convert HSL (0-360, 0-1, 0-1) to RGB (0-255)."""
+    import colorsys
+    r, g, b = colorsys.hls_to_rgb(h / 360.0, l, s)
+    return (int(r * 255), int(g * 255), int(b * 255))
 
 
-def get_theme(index: int) -> ColorTheme:
-    return COLOR_THEMES[index // 10 % len(COLOR_THEMES)]
+def _rgb_to_hex(r: int, g: int, b: int) -> str:
+    return f"#{r:02x}{g:02x}{b:02x}"
+
+
+def get_theme_for_day(day: int) -> ColorTheme:
+    """Generate a unique bright gradient theme for each day (1-365).
+    Uses higher saturation so every day is visibly different."""
+
+    # Full 360° hue rotation across 365 days
+    hue = (day * 360.0 / 365.0) % 360.0
+
+    # Use both hue and slight lightness/saturation variation to guarantee uniqueness
+    lightness = 0.90 + 0.04 * ((day * 7) % 17) / 16.0  # 0.90 ~ 0.94
+    sat = 0.65 + 0.15 * ((day * 11) % 13) / 12.0  # 0.65 ~ 0.80
+
+    bg = _hsl_to_rgb(hue, sat, lightness)
+    bg_hex = _rgb_to_hex(*bg)
+
+    # Edge color for gradient (darker, same hue)
+    edge = _hsl_to_rgb(hue, sat - 0.10, lightness - 0.08)
+    edge_hex = _rgb_to_hex(*edge)
+
+    # Progress bar: saturated version of the hue
+    bar = _hsl_to_rgb(hue, 0.70, 0.45)
+    bar_hex = _rgb_to_hex(*bar)
+
+    return ColorTheme(
+        background=bg_hex,
+        korean_text="#222222",
+        romanization_text="#888888",
+        english_text="#222222",
+        progress_bar=bar_hex,
+        progress_bg=edge_hex,
+    )
+
+
+def get_theme(index: int, video_seed: int = 0) -> ColorTheme:
+    """Each video (day) gets one unique theme. All expressions in
+    that video share the same background."""
+    return get_theme_for_day(video_seed % 365)
