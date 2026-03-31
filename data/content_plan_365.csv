@@ -1,0 +1,366 @@
+day,topic,title_en,title_kr
+1,Greetings & Basics,60 Essential Korean Greetings,기본 인사 60개
+2,Numbers & Counting,60 Korean Numbers You Must Know,숫자 표현 60개
+3,Cafe & Coffee Shop,60 Korean Cafe Phrases,카페 표현 60개
+4,Restaurant & Ordering,60 Korean Restaurant Phrases,식당 표현 60개
+5,Shopping & Prices,60 Korean Shopping Phrases,쇼핑 표현 60개
+6,Directions & Transport,60 Korean Direction Phrases,길찾기 표현 60개
+7,Emergency & Health,60 Korean Emergency Phrases,긴급 상황 60개
+8,Basic Emotions,60 Korean Emotion Words,감정 표현 60개
+9,K-Drama Reactions,60 K-Drama Reaction Phrases,드라마 리액션 60개
+10,Compliments,60 Korean Compliments,칭찬 표현 60개
+11,Apology & Comfort,60 Ways to Say Sorry in Korean,사과와 위로 60개
+12,Love & Romance,60 Korean Love Phrases,사랑 표현 60개
+13,Anger & Frustration,60 Korean Anger Expressions,화남 표현 60개
+14,Surprise & Amazement,60 Korean Surprise Phrases,놀람 표현 60개
+15,Weather & Seasons,60 Korean Weather Phrases,날씨 표현 60개
+16,Food & Taste,60 Korean Food Words,음식과 맛 60개
+17,Family & Titles,60 Korean Family Terms,가족 호칭 60개
+18,Phone & Texting,60 Korean Phone Phrases,전화 표현 60개
+19,Making Plans,60 Korean Phrases for Plans,약속 표현 60개
+20,Home & Daily Life,60 Korean Daily Life Phrases,일상 표현 60개
+21,Hobbies & Free Time,60 Korean Hobby Phrases,취미 표현 60개
+22,Romance Drama Lines,60 K-Drama Romance Lines,로맨스 명대사 60개
+23,Breakup & Reunion,60 Korean Breakup Phrases,이별과 재회 60개
+24,Office & Work,60 Korean Office Phrases,직장 표현 60개
+25,School & Studying,60 Korean School Phrases,학교 표현 60개
+26,Friendship,60 Korean Friendship Phrases,우정 표현 60개
+27,Formal vs Casual,60 Phrases in Both Formal & Casual,반말 존댓말 비교 60개
+28,Famous Drama Quotes,60 Iconic K-Drama Lines,드라마 명대사 60개
+29,Korean Slang 1,60 Korean Slang Words,한국어 슬랭 60개
+30,Korean Slang 2,60 More Korean Slang,한국어 슬랭 2탄 60개
+31,Texting Abbreviations,60 Korean Texting Shortcuts,채팅 용어 60개
+32,Social Media Korean,60 Korean SNS Phrases,SNS 한국어 60개
+33,Aegyo Phrases,60 Cute Korean Phrases (Aegyo),애교 표현 60개
+34,Drinking Culture,60 Korean Drinking Phrases,술자리 표현 60개
+35,Korean Exclamations,60 Korean Exclamations,감탄사 60개
+36,Body Parts & Health,60 Korean Body & Health Words,신체와 건강 60개
+37,Colors & Descriptions,60 Korean Color & Description Words,색깔과 묘사 60개
+38,Animals & Nature,60 Korean Animal & Nature Words,동물과 자연 60개
+39,Clothing & Fashion,60 Korean Fashion Phrases,패션 표현 60개
+40,Beauty & Skincare,60 Korean Beauty Phrases,뷰티 표현 60개
+41,Travel in Seoul,60 Seoul Travel Phrases,서울 여행 표현 60개
+42,Korean Holidays,60 Korean Holiday Phrases,한국 명절 표현 60개
+43,K-Pop Fandom,60 K-Pop Fan Phrases,K-Pop 팬 용어 60개
+44,Gaming Korean,60 Korean Gaming Phrases,게임 한국어 60개
+45,Proverbs & Sayings,60 Korean Proverbs,한국 속담 60개
+46,Idioms,60 Korean Idioms,한국어 관용구 60개
+47,Onomatopoeia,60 Korean Sound Words,의성어 의태어 60개
+48,Verbs Basics,60 Essential Korean Verbs,필수 동사 60개
+49,Adjectives Basics,60 Essential Korean Adjectives,필수 형용사 60개
+50,Time Expressions,60 Korean Time Phrases,시간 표현 60개
+51,Location Words,60 Korean Location Words,위치 표현 60개
+52,Question Words,60 Korean Question Phrases,질문 표현 60개
+53,Agreeing & Disagreeing,60 Ways to Agree/Disagree in Korean,동의 반대 60개
+54,Requesting & Asking,60 Korean Request Phrases,부탁 표현 60개
+55,Thanking in Detail,60 Ways to Thank in Korean,감사 표현 60개
+56,Taxi & Bus,60 Korean Taxi & Bus Phrases,택시 버스 표현 60개
+57,Airport & Travel,60 Korean Airport Phrases,공항 표현 60개
+58,Hotel & Accommodation,60 Korean Hotel Phrases,호텔 표현 60개
+59,Convenience Store,60 Korean Convenience Store Phrases,편의점 표현 60개
+60,Market & Street Food,60 Korean Market Phrases,시장 표현 60개
+61,Pharmacy & Medicine,60 Korean Pharmacy Phrases,약국 표현 60개
+62,Hospital Visits,60 Korean Hospital Phrases,병원 표현 60개
+63,At the Bank,60 Korean Banking Phrases,은행 표현 60개
+64,Post Office,60 Korean Post Office Phrases,우체국 표현 60개
+65,Hair Salon,60 Korean Hair Salon Phrases,미용실 표현 60개
+66,Gym & Exercise,60 Korean Gym Phrases,운동 표현 60개
+67,Movies & Cinema,60 Korean Movie Phrases,영화 표현 60개
+68,Concert & Events,60 Korean Event Phrases,콘서트 표현 60개
+69,Dating Part 1,60 Korean Dating Phrases,데이트 표현 1탄
+70,Dating Part 2,60 More Korean Dating Phrases,데이트 표현 2탄
+71,Wedding & Marriage,60 Korean Wedding Phrases,결혼 표현 60개
+72,Parenting,60 Korean Parenting Phrases,육아 표현 60개
+73,Pet Owners,60 Korean Pet Phrases,반려동물 표현 60개
+74,Cooking Korean,60 Korean Cooking Terms,요리 용어 60개
+75,Korean Breakfast,60 Korean Breakfast Phrases,아침식사 표현 60개
+76,Korean BBQ,60 Korean BBQ Phrases,삼겹살집 표현 60개
+77,Fried Chicken,60 Korean Chicken & Beer Phrases,치맥 표현 60개
+78,Korean Desserts,60 Korean Dessert Words,디저트 표현 60개
+79,Coffee Types,60 Korean Coffee Phrases,커피 종류 표현 60개
+80,Ramen & Noodles,60 Korean Noodle Phrases,라면 국수 표현 60개
+81,Soju Culture,60 Korean Soju Phrases,소주 표현 60개
+82,Karaoke (Noraebang),60 Korean Karaoke Phrases,노래방 표현 60개
+83,PC Bang,60 Korean PC Bang Phrases,PC방 표현 60개
+84,Jjimjilbang (Spa),60 Korean Spa Phrases,찜질방 표현 60개
+85,Han River Activities,60 Korean Han River Phrases,한강 표현 60개
+86,Busan Travel,60 Busan Travel Phrases,부산 여행 표현 60개
+87,Jeju Travel,60 Jeju Travel Phrases,제주 여행 표현 60개
+88,Temple Stay,60 Korean Temple Stay Phrases,템플스테이 표현 60개
+89,Subway Navigation,60 Korean Subway Phrases,지하철 표현 60개
+90,KTX Train,60 Korean Train Phrases,KTX 기차 표현 60개
+91,Drama: Reply 1988,60 Phrases from Reply 1988,응답하라 1988 표현 60개
+92,Drama: Goblin,60 Phrases from Goblin,도깨비 표현 60개
+93,Drama: Crash Landing,60 Phrases from Crash Landing On You,사랑의 불시착 표현 60개
+94,Drama: Squid Game,60 Phrases from Squid Game,오징어 게임 표현 60개
+95,Drama: Itaewon Class,60 Phrases from Itaewon Class,이태원 클라쓰 표현 60개
+96,Drama: My Love from Star,60 Phrases from My Love from the Star,별에서 온 그대 표현 60개
+97,Drama: Vincenzo,60 Phrases from Vincenzo,빈센조 표현 60개
+98,Drama: Hospital Playlist,60 Phrases from Hospital Playlist,슬기로운 의사생활 표현 60개
+99,Drama: Hometown ChaChaCha,60 Phrases from Hometown ChaChaCha,갯마을 차차차 표현 60개
+100,Drama: Business Proposal,60 Phrases from Business Proposal,사내맞선 표현 60개
+101,Drama: Lovely Runner,60 Phrases from Lovely Runner,선재 업고 튀어 표현 60개
+102,Drama: Queen of Tears,60 Phrases from Queen of Tears,눈물의 여왕 표현 60개
+103,Drama: The Glory,60 Phrases from The Glory,더 글로리 표현 60개
+104,Drama: Extraordinary Attorney Woo,60 Phrases from Attorney Woo,이상한 변호사 우영우 표현 60개
+105,BTS Song Lyrics,60 Korean Phrases from BTS Songs,BTS 노래 속 표현 60개
+106,BLACKPINK Lyrics,60 Korean Phrases from BLACKPINK,블랙핑크 노래 속 표현 60개
+107,IU Song Lyrics,60 Korean Phrases from IU Songs,아이유 노래 속 표현 60개
+108,NewJeans Lyrics,60 Korean Phrases from NewJeans,뉴진스 노래 속 표현 60개
+109,Stray Kids Lyrics,60 Korean Phrases from Stray Kids,스트레이키즈 노래 속 표현 60개
+110,SEVENTEEN Lyrics,60 Korean Phrases from SEVENTEEN,세븐틴 노래 속 표현 60개
+111,Busan Dialect,60 Busan Dialect Phrases,부산 사투리 60개
+112,Jeju Dialect,60 Jeju Dialect Phrases,제주 사투리 60개
+113,Chungcheong Dialect,60 Chungcheong Dialect Phrases,충청도 사투리 60개
+114,Gyeongsang Dialect,60 Gyeongsang Dialect Phrases,경상도 사투리 60개
+115,Jeolla Dialect,60 Jeolla Dialect Phrases,전라도 사투리 60개
+116,Military Korean,60 Korean Military Phrases,군대 표현 60개
+117,University Life,60 Korean University Phrases,대학 생활 표현 60개
+118,Job Interview,60 Korean Interview Phrases,면접 표현 60개
+119,Business Meeting,60 Korean Meeting Phrases,회의 표현 60개
+120,Email Korean,60 Korean Email Phrases,이메일 표현 60개
+121,Presentation Korean,60 Korean Presentation Phrases,발표 표현 60개
+122,Customer Service,60 Korean Customer Service Phrases,고객 서비스 표현 60개
+123,IT & Tech Korean,60 Korean Tech Terms,IT 용어 60개
+124,Medical Terms,60 Korean Medical Terms,의학 용어 60개
+125,Legal Terms,60 Korean Legal Terms,법률 용어 60개
+126,Finance Korean,60 Korean Finance Terms,금융 용어 60개
+127,Real Estate,60 Korean Real Estate Phrases,부동산 표현 60개
+128,Moving & Housing,60 Korean Moving Phrases,이사 표현 60개
+129,Driving Korean,60 Korean Driving Phrases,운전 표현 60개
+130,Photography,60 Korean Photography Terms,사진 용어 60개
+131,Art & Museums,60 Korean Art Phrases,미술 표현 60개
+132,Music Terms,60 Korean Music Terms,음악 용어 60개
+133,Dance Terms,60 Korean Dance Terms,춤 용어 60개
+134,Sports General,60 Korean Sports Phrases,스포츠 표현 60개
+135,Soccer/Football,60 Korean Soccer Phrases,축구 표현 60개
+136,Baseball,60 Korean Baseball Phrases,야구 표현 60개
+137,Basketball,60 Korean Basketball Phrases,농구 표현 60개
+138,Swimming & Beach,60 Korean Beach Phrases,해변 표현 60개
+139,Hiking & Mountains,60 Korean Hiking Phrases,등산 표현 60개
+140,Camping,60 Korean Camping Phrases,캠핑 표현 60개
+141,Confusing Words 1,60 Commonly Confused Korean Words,헷갈리는 한국어 1탄
+142,Confusing Words 2,60 More Confused Korean Words,헷갈리는 한국어 2탄
+143,False Friends,60 Korean-English False Friends,콩글리시 표현 60개
+144,Konglish,60 Konglish Words Koreans Use,콩글리시 단어 60개
+145,Borrowed English,60 English Words Used in Korean,외래어 60개
+146,Sino-Korean Numbers,60 Sino-Korean Number Phrases,한자어 숫자 표현 60개
+147,Native Korean Numbers,60 Native Korean Number Phrases,순우리말 숫자 60개
+148,Counters & Units,60 Korean Counter Words,단위 표현 60개
+149,Connectors & Conjunctions,60 Korean Connectors,접속사 표현 60개
+150,Sentence Endings 1,60 Korean Sentence Endings,어미 표현 1탄
+151,Sentence Endings 2,60 More Korean Sentence Endings,어미 표현 2탄
+152,Honorifics Basics,60 Korean Honorific Phrases,존경어 표현 60개
+153,Humble Speech,60 Korean Humble Phrases,겸양어 표현 60개
+154,Formal Business,60 Formal Business Korean,격식체 비즈니스 60개
+155,Casual Friends,60 Casual Korean Among Friends,친구 사이 반말 60개
+156,Cute Texting,60 Cute Korean Text Messages,귀여운 문자 표현 60개
+157,Angry Texting,60 Angry Korean Texts,화난 문자 표현 60개
+158,Flirting Korean,60 Korean Flirting Phrases,작업 멘트 60개
+159,Rejection Korean,60 Korean Rejection Phrases,거절 표현 60개
+160,Encouragement,60 Korean Encouragement Phrases,격려 표현 60개
+161,Gossip Korean,60 Korean Gossip Phrases,험담 수다 표현 60개
+162,Secrets & Trust,60 Korean Secret Phrases,비밀 표현 60개
+163,Promises,60 Korean Promise Phrases,약속 표현 60개
+164,Regret & Guilt,60 Korean Regret Phrases,후회 표현 60개
+165,Hope & Wishes,60 Korean Wish Phrases,소원 표현 60개
+166,Dreams & Goals,60 Korean Dream Phrases,꿈 목표 표현 60개
+167,Memories & Nostalgia,60 Korean Memory Phrases,추억 표현 60개
+168,Jealousy,60 Korean Jealousy Phrases,질투 표현 60개
+169,Embarrassment,60 Korean Embarrassment Phrases,창피 표현 60개
+170,Loneliness,60 Korean Loneliness Phrases,외로움 표현 60개
+171,Confidence,60 Korean Confidence Phrases,자신감 표현 60개
+172,Fear & Anxiety,60 Korean Fear Phrases,두려움 표현 60개
+173,Relief & Peace,60 Korean Relief Phrases,안도감 표현 60개
+174,Greetings Advanced,60 Advanced Korean Greetings,고급 인사 표현 60개
+175,Self Introduction,60 Korean Self-Introduction Lines,자기소개 표현 60개
+176,Describing People,60 Korean Words to Describe People,사람 묘사 60개
+177,Describing Places,60 Korean Words to Describe Places,장소 묘사 60개
+178,Describing Food Detail,60 Detailed Korean Food Words,음식 상세 묘사 60개
+179,Korean Zodiac,60 Korean Zodiac Phrases,띠 관련 표현 60개
+180,Fortune & Luck,60 Korean Luck Phrases,운세 표현 60개
+181,Superstitions,60 Korean Superstition Phrases,미신 표현 60개
+182,School Subjects,60 Korean School Subject Words,학과목 표현 60개
+183,Classroom Korean,60 Korean Classroom Phrases,교실 표현 60개
+184,Library & Study,60 Korean Study Phrases,도서관 공부 표현 60개
+185,Exam & Test,60 Korean Exam Phrases,시험 표현 60개
+186,Graduation,60 Korean Graduation Phrases,졸업 표현 60개
+187,Part-time Job,60 Korean Part-time Job Phrases,알바 표현 60개
+188,Salary & Pay,60 Korean Salary Phrases,월급 표현 60개
+189,Promotion & Career,60 Korean Career Phrases,승진 경력 표현 60개
+190,Quitting a Job,60 Korean Resignation Phrases,퇴사 표현 60개
+191,Spring Vocabulary,60 Korean Spring Words,봄 관련 표현 60개
+192,Summer Vocabulary,60 Korean Summer Words,여름 관련 표현 60개
+193,Autumn Vocabulary,60 Korean Autumn Words,가을 관련 표현 60개
+194,Winter Vocabulary,60 Korean Winter Words,겨울 관련 표현 60개
+195,Chuseok (Korean Thanksgiving),60 Chuseok Phrases,추석 표현 60개
+196,Seollal (Lunar New Year),60 Seollal Phrases,설날 표현 60개
+197,Christmas in Korea,60 Korean Christmas Phrases,크리스마스 표현 60개
+198,Valentine's Day Korea,60 Korean Valentine Phrases,발렌타인 표현 60개
+199,White Day,60 White Day Phrases,화이트데이 표현 60개
+200,Birthday Celebrations,60 Korean Birthday Phrases,생일 표현 60개
+201,Children's Day,60 Children's Day Phrases,어린이날 표현 60개
+202,New Year Resolutions,60 Korean Resolution Phrases,새해 다짐 표현 60개
+203,Korean Manners 1,60 Korean Etiquette Phrases,예절 표현 1탄
+204,Korean Manners 2,60 More Korean Etiquette Phrases,예절 표현 2탄
+205,Respect for Elders,60 Korean Elder-Respect Phrases,어른 공경 표현 60개
+206,Table Manners,60 Korean Table Manner Phrases,식사 예절 표현 60개
+207,Gift Giving,60 Korean Gift Phrases,선물 표현 60개
+208,Visiting Korean Home,60 Phrases for Korean Home Visit,집 방문 표현 60개
+209,Korean Wedding Culture,60 Korean Wedding Custom Phrases,결혼 문화 표현 60개
+210,Funeral & Condolences,60 Korean Condolence Phrases,조문 표현 60개
+211,Moving Day Culture,60 Korean Moving Day Phrases,이사날 표현 60개
+212,Korean Apartment Life,60 Korean Apartment Phrases,아파트 생활 표현 60개
+213,Neighborhood & Neighbors,60 Korean Neighbor Phrases,이웃 표현 60개
+214,Delivery Culture,60 Korean Delivery Phrases,배달 표현 60개
+215,Online Shopping,60 Korean Online Shopping Phrases,온라인 쇼핑 표현 60개
+216,Returns & Refunds,60 Korean Return Phrases,교환 환불 표현 60개
+217,Skincare Routine,60 Korean Skincare Phrases,스킨케어 표현 60개
+218,Makeup Korean,60 Korean Makeup Terms,메이크업 용어 60개
+219,Hair Styling,60 Korean Hair Terms,헤어 용어 60개
+220,Fashion Trends,60 Korean Fashion Trend Words,패션 트렌드 60개
+221,Korean Sizes,60 Korean Size & Fit Phrases,사이즈 표현 60개
+222,Dry Cleaning & Laundry,60 Korean Laundry Phrases,세탁 표현 60개
+223,Home Cleaning,60 Korean Cleaning Phrases,청소 표현 60개
+224,Cooking Methods,60 Korean Cooking Method Words,조리법 표현 60개
+225,Korean Ingredients,60 Korean Ingredient Names,식재료 이름 60개
+226,Korean Side Dishes,60 Korean Side Dish Names,반찬 이름 60개
+227,Korean Soups & Stews,60 Korean Soup Names,국 찌개 이름 60개
+228,Korean Rice Dishes,60 Korean Rice Dish Names,밥 요리 이름 60개
+229,Street Food Names,60 Korean Street Food Names,길거리 음식 이름 60개
+230,Korean Drinks,60 Korean Drink Names,한국 음료 이름 60개
+231,Korean Snacks,60 Korean Snack Names,한국 과자 이름 60개
+232,Fruits in Korean,60 Korean Fruit Names,과일 이름 60개
+233,Vegetables in Korean,60 Korean Vegetable Names,채소 이름 60개
+234,Meat & Seafood,60 Korean Meat & Seafood Names,고기 해산물 이름 60개
+235,At the Dentist,60 Korean Dentist Phrases,치과 표현 60개
+236,Eye Doctor,60 Korean Eye Doctor Phrases,안과 표현 60개
+237,Mental Health,60 Korean Mental Health Phrases,정신 건강 표현 60개
+238,Diet & Weight,60 Korean Diet Phrases,다이어트 표현 60개
+239,Yoga & Meditation,60 Korean Yoga Phrases,요가 명상 표현 60개
+240,Running & Marathon,60 Korean Running Phrases,달리기 표현 60개
+241,Cycling,60 Korean Cycling Phrases,자전거 표현 60개
+242,Skiing & Snowboarding,60 Korean Ski Phrases,스키 표현 60개
+243,Water Sports,60 Korean Water Sport Phrases,수상 스포츠 표현 60개
+244,Golf Korean,60 Korean Golf Phrases,골프 표현 60개
+245,Taekwondo,60 Taekwondo Korean Terms,태권도 용어 60개
+246,E-sports,60 Korean E-sports Phrases,e스포츠 표현 60개
+247,Board Games,60 Korean Board Game Phrases,보드게임 표현 60개
+248,Amusement Park,60 Korean Amusement Park Phrases,놀이공원 표현 60개
+249,Zoo & Aquarium,60 Korean Zoo Phrases,동물원 표현 60개
+250,Museum & Gallery,60 Korean Museum Phrases,박물관 표현 60개
+251,Theater & Musical,60 Korean Theater Phrases,극장 뮤지컬 표현 60개
+252,Festival Korean,60 Korean Festival Phrases,축제 표현 60개
+253,Night Market,60 Korean Night Market Phrases,야시장 표현 60개
+254,Hanok & Traditional,60 Korean Traditional Culture Words,한옥 전통 표현 60개
+255,Hanbok,60 Korean Hanbok Phrases,한복 표현 60개
+256,Tea Culture,60 Korean Tea Phrases,차 문화 표현 60개
+257,Korean Garden,60 Korean Garden Phrases,정원 표현 60개
+258,Calligraphy,60 Korean Calligraphy Terms,서예 용어 60개
+259,Pottery,60 Korean Pottery Terms,도자기 용어 60개
+260,K-Beauty Products,60 K-Beauty Product Names,K뷰티 제품명 60개
+261,Variety Show Phrases,60 Korean Variety Show Phrases,예능 표현 60개
+262,Mukbang Korean,60 Korean Mukbang Phrases,먹방 표현 60개
+263,ASMR Korean,60 Korean ASMR Phrases,ASMR 표현 60개
+264,YouTube Korean,60 Korean YouTube Phrases,유튜브 표현 60개
+265,Webtoon Korean,60 Korean Webtoon Phrases,웹툰 표현 60개
+266,Korean Novel Terms,60 Korean Literature Terms,소설 용어 60개
+267,Poetry Korean,60 Korean Poetry Phrases,시 표현 60개
+268,Korean History 1,60 Korean History Terms,한국 역사 용어 1탄
+269,Korean History 2,60 More Korean History Terms,한국 역사 용어 2탄
+270,Korean Geography,60 Korean Geography Terms,한국 지리 용어 60개
+271,Korean Politics,60 Korean Political Terms,정치 용어 60개
+272,Korean Economy,60 Korean Economy Terms,경제 용어 60개
+273,Environment Korean,60 Korean Environment Phrases,환경 표현 60개
+274,Space & Science,60 Korean Science Terms,과학 용어 60개
+275,Computer & Internet,60 Korean Internet Terms,인터넷 용어 60개
+276,Smartphone Korean,60 Korean Smartphone Phrases,스마트폰 표현 60개
+277,App & Software,60 Korean App Terms,앱 용어 60개
+278,AI & Technology,60 Korean AI Terms,AI 기술 용어 60개
+279,Startup Korean,60 Korean Startup Terms,스타트업 용어 60개
+280,Marketing Korean,60 Korean Marketing Terms,마케팅 용어 60개
+281,Design Korean,60 Korean Design Terms,디자인 용어 60개
+282,Photography Korean 2,60 Advanced Korean Photo Terms,사진 고급 용어 60개
+283,Architecture Korean,60 Korean Architecture Terms,건축 용어 60개
+284,Interior Design,60 Korean Interior Terms,인테리어 용어 60개
+285,Gardening,60 Korean Gardening Phrases,원예 표현 60개
+286,DIY Korean,60 Korean DIY Phrases,DIY 표현 60개
+287,Recycling Korean,60 Korean Recycling Phrases,재활용 표현 60개
+288,Korean News Vocab,60 Korean News Vocabulary,뉴스 어휘 60개
+289,Weather Forecast,60 Korean Weather Forecast Terms,일기예보 용어 60개
+290,Traffic & Commute,60 Korean Commute Phrases,출퇴근 표현 60개
+291,Parking,60 Korean Parking Phrases,주차 표현 60개
+292,Gas Station,60 Korean Gas Station Phrases,주유소 표현 60개
+293,Car Maintenance,60 Korean Car Phrases,자동차 정비 표현 60개
+294,Insurance Korean,60 Korean Insurance Terms,보험 용어 60개
+295,Contract Korean,60 Korean Contract Terms,계약 용어 60개
+296,Korean Zodiac Animals,60 Korean Zodiac Animal Phrases,십이지 표현 60개
+297,Fortune Telling,60 Korean Fortune Phrases,점술 표현 60개
+298,Korean Ghosts & Myths,60 Korean Myth Phrases,귀신 신화 표현 60개
+299,Korean Fairy Tales,60 Korean Fairy Tale Phrases,전래동화 표현 60개
+300,Children's Korean,60 Simple Korean for Kids,어린이 한국어 60개
+301,Baby Talk Korean,60 Korean Baby Talk Phrases,아기 말 표현 60개
+302,Elderly Respect,60 Korean Phrases for Elders,어르신 표현 60개
+303,Hospital Admission,60 Korean Hospital Stay Phrases,입원 표현 60개
+304,Pregnancy Korean,60 Korean Pregnancy Phrases,임신 표현 60개
+305,Wedding Planning,60 Korean Wedding Plan Phrases,결혼 준비 표현 60개
+306,House Hunting,60 Korean House Hunting Phrases,집 구하기 표현 60개
+307,Lease & Rent,60 Korean Rent Phrases,전세 월세 표현 60개
+308,Renovation,60 Korean Renovation Phrases,리모델링 표현 60개
+309,Garden & Plants,60 Korean Plant Names,식물 이름 60개
+310,Korean Flowers,60 Korean Flower Names,꽃 이름 60개
+311,Korean Trees,60 Korean Tree Names,나무 이름 60개
+312,Korean Birds,60 Korean Bird Names,새 이름 60개
+313,Sea Creatures,60 Korean Sea Creature Names,바다 생물 이름 60개
+314,Insects Korean,60 Korean Insect Names,곤충 이름 60개
+315,Dog Breeds Korean,60 Korean Dog Breed Names,강아지 품종 이름 60개
+316,Cat Korean,60 Korean Cat Phrases,고양이 표현 60개
+317,Vet Visit,60 Korean Vet Phrases,동물병원 표현 60개
+318,Korean Fairy Tales 2,60 More Fairy Tale Phrases,전래동화 표현 2탄
+319,Korean Legends,60 Korean Legend Phrases,전설 표현 60개
+320,Hangeul Day Special,60 Hangeul Special Phrases,한글날 특별 표현 60개
+321,Korean Flag Meaning,60 Korean Flag Related Words,태극기 관련 표현 60개
+322,Korean National Anthem,60 Words from Korean Anthem,애국가 속 표현 60개
+323,Military Service,60 Korean Military Service Words,군복무 표현 60개
+324,Discharge & Freedom,60 Korean Discharge Phrases,전역 표현 60개
+325,Korean Humor 1,60 Korean Joke Phrases,한국 유머 1탄
+326,Korean Humor 2,60 More Korean Jokes,한국 유머 2탄
+327,Puns in Korean,60 Korean Puns,한국어 말장난 60개
+328,Tongue Twisters,60 Korean Tongue Twisters,한국어 잰말 60개
+329,Song Lyrics Romantic,60 Romantic Korean Song Phrases,로맨틱 노래 표현 60개
+330,Song Lyrics Sad,60 Sad Korean Song Phrases,슬픈 노래 표현 60개
+331,Song Lyrics Happy,60 Happy Korean Song Phrases,신나는 노래 표현 60개
+332,Trot Music,60 Korean Trot Phrases,트로트 표현 60개
+333,Indie Music Korean,60 Korean Indie Music Phrases,인디 음악 표현 60개
+334,Hip-Hop Korean,60 Korean Hip-Hop Phrases,힙합 표현 60개
+335,EDM & Club,60 Korean Club Phrases,클럽 표현 60개
+336,Karaoke Songs,60 Korean Karaoke Phrases,노래방 인기곡 표현 60개
+337,Photo Booth,60 Korean Photo Booth Phrases,인생네컷 표현 60개
+338,Arcade Games,60 Korean Arcade Phrases,오락실 표현 60개
+339,Board Cafe,60 Korean Board Cafe Phrases,보드게임 카페 표현 60개
+340,Book Cafe,60 Korean Book Cafe Phrases,북카페 표현 60개
+341,Study Cafe,60 Korean Study Cafe Phrases,스터디카페 표현 60개
+342,Co-working Space,60 Korean Co-working Phrases,공유오피스 표현 60개
+343,Freelancer Korean,60 Korean Freelancer Phrases,프리랜서 표현 60개
+344,Side Hustle Korean,60 Korean Side Job Phrases,부업 표현 60개
+345,Investment Korean,60 Korean Investment Phrases,투자 표현 60개
+346,Cryptocurrency,60 Korean Crypto Terms,암호화폐 용어 60개
+347,Stock Market,60 Korean Stock Market Terms,주식 용어 60개
+348,Saving Money,60 Korean Saving Phrases,절약 표현 60개
+349,Budgeting Korean,60 Korean Budget Phrases,가계부 표현 60개
+350,Tax Korean,60 Korean Tax Terms,세금 용어 60개
+351,Retirement,60 Korean Retirement Phrases,은퇴 표현 60개
+352,Volunteering,60 Korean Volunteer Phrases,봉사 표현 60개
+353,Charity Korean,60 Korean Charity Phrases,기부 표현 60개
+354,Religion Korean,60 Korean Religious Terms,종교 표현 60개
+355,Philosophy Korean,60 Korean Philosophy Terms,철학 표현 60개
+356,Psychology Korean,60 Korean Psychology Terms,심리학 표현 60개
+357,Self-Help Korean,60 Korean Self-Help Phrases,자기개발 표현 60개
+358,Morning Routine,60 Korean Morning Routine Phrases,아침 루틴 표현 60개
+359,Night Routine,60 Korean Night Routine Phrases,저녁 루틴 표현 60개
+360,Weekend Plans,60 Korean Weekend Phrases,주말 계획 표현 60개
+361,Bucket List,60 Korean Bucket List Phrases,버킷리스트 표현 60개
+362,New Year Special,60 Korean New Year Phrases,새해 특별 표현 60개
+363,Year in Review,60 Korean Year Review Phrases,올해 돌아보기 표현 60개
+364,Thank You Special,60 Special Thank You Phrases,감사 특별 표현 60개
+365,Best of the Year,60 Most Popular Korean Phrases,올해의 베스트 표현 60개
