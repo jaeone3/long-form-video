@@ -1,0 +1,61 @@
+english_text,korean_text,romanization
+The server is down,서버가 다운됐어요,seobeoga daundwaesseoyo
+I need to update the software,소프트웨어를 업데이트해야 해요,sopeuteuweoeoreul epdeiteuhaeyahaeyo
+There's a bug in the code,코드에 버그가 있어요,kodeu-e beogeu-ga isseoyo
+Let me debug this,디버깅할게요,dibeoginghalgeyo
+The app keeps crashing,앱이 계속 꺼져요,aebi gyesok kkeojyeoyo
+I'll push the code,코드를 푸시할게요,kodeureul pusyihalgeyo
+Let's do a code review,코드 리뷰 하자,kodeu ribyu haja
+The database needs optimization,데이터베이스 최적화가 필요해요,deiteobheiseu choejeokhwaga piryohaeyo
+I'll deploy the update,업데이트를 배포할게요,epdeitereul baepohalgeyo
+The API is not responding,API가 응답하지 않아요,eipiaga eungdaphaji anayo
+Let me check the logs,로그를 확인해 볼게요,rogeureul hwaginhae bolgeyo
+We need to scale the servers,서버를 확장해야 해요,seobeoreul hwakjanghaeyahaeyo
+The frontend looks good,프론트엔드가 괜찮아 보여요,peuronteuendeuga gwaenchana boyeoyo
+The backend needs work,백엔드 작업이 필요해요,baegendeu jageobi piryohaeyo
+Let's set up a test environment,테스트 환경을 구축하자,teseuteu hwangyeongeul guchukaja
+I committed the changes,변경사항을 커밋했어요,byeongyeongsahangeul keomithaesseoyo
+The branch has been merged,브랜치가 머지됐어요,beuraenchiga meojidwaesseoyo
+I need to refactor this code,이 코드를 리팩토링해야 해요,i kodeureul ripaektolinghaeya haeyo
+The load time is too slow,로딩 시간이 너무 느려요,roding sigani neomu neuryeoyo
+We need better security,보안을 강화해야 해요,boaneul ganghwahaeya haeyo
+The user interface is intuitive,사용자 인터페이스가 직관적이에요,sayongja inteoepeisuga jikgwanjeogieyo
+Let me write a unit test,단위 테스트를 작성할게요,danwi teseuteureul jakseonghalgeyo
+The cache needs to be cleared,캐시를 지워야 해요,kaesireul jiwoya haeyo
+I'll configure the settings,설정을 구성할게요,seoljeongeul guseonghalgeyo
+The network is congested,네트워크가 혼잡해요,neteuwokkeuga honjaphaeyo
+I need more storage,저장 공간이 더 필요해요,jeojang gonggani deo piryohaeyo
+The encryption is secure,암호화가 안전해요,amhohwaga anjeonhaeyo
+Let's implement this feature,이 기능을 구현하자,i gineungeul guhyeonhaja
+The algorithm is efficient,알고리즘이 효율적이에요,algorijmeui hyoyuljeogieyo
+I need to install a library,라이브러리를 설치해야 해요,raibeureorireul seolchihaeya haeyo
+The system crashed,시스템이 다운됐어요,siseutemi daundwaesseoyo
+Let me restart the server,서버를 재시작할게요,seobeoreul jaesijak halgeyo
+The backup is complete,백업이 완료됐어요,baegeobi wallyodwaesseoyo
+We need to migrate the data,데이터를 이전해야 해요,deiteoreul ijeonhaeyahaeyo
+The cloud service is reliable,클라우드 서비스가 안정적이에요,keulraudeu seobiseuga anjeongjeogieyo
+I'll create a pull request,풀 리퀘스트를 만들게요,pul rikueseuteureul mandeulgeyo
+The sprint ends Friday,스프린트가 금요일에 끝나요,seupeurinteuga geumyoire kkeutnayo
+Let's update the documentation,문서를 업데이트하자,munseoreul epdeiteuhaja
+The password needs to be changed,비밀번호를 변경해야 해요,bimilbeonhoreul byeongyeonghaeya haeyo
+Two-factor authentication is required,이중 인증이 필요해요,ijung injeongi piryohaeyo
+The download is complete,다운로드가 완료됐어요,daunrodeuga wallyodwaesseoyo
+I'll compile the code,코드를 컴파일할게요,kodeureul keompailhalgeyo
+The function has a syntax error,함수에 구문 오류가 있어요,hamsue gumun oryuga isseoyo
+Let me fix the responsive design,반응형 디자인을 수정할게요,baneunghyeong dijainneul sujeonghalgeyo
+The bandwidth is insufficient,대역폭이 부족해요,daeyeokpogi bujokaeyo
+I'll optimize the query,쿼리를 최적화할게요,kworireul choejeokhwahalgeyo
+The cookie has expired,쿠키가 만료됐어요,kukiga mallyodwaesseoyo
+We need to update the firewall,방화벽을 업데이트해야 해요,banghwabyeogeul epdeiteuhaeyahaeyo
+The pixel ratio is wrong,픽셀 비율이 잘못됐어요,piksel biyuri jalmotdwaesseoyo
+I'll run the script,스크립트를 실행할게요,seukeuriptereul silhaenghalgeyo
+The repository has been cloned,저장소가 복제됐어요,jeojangso-ga bokjedwaesseoyo
+Let me initialize the project,프로젝트를 초기화할게요,peurojektereul chogihwahalgeyo
+The framework is lightweight,프레임워크가 가벼워요,peureimwokkeuga gabyeoweoyo
+I'll add error handling,에러 처리를 추가할게요,ereo cheorireul chugahalgeyo
+The API key is invalid,API 키가 유효하지 않아요,eipi ai kiga yuhyohaji anayo
+The version has been released,버전이 출시됐어요,beojeoni chulsidwaesseoyo
+I need to set up the CI/CD pipeline,배포 파이프라인을 구축해야 해요,baepo paipeuraineul guchukhaeyahaeyo
+The container is running,컨테이너가 실행 중이에요,keonteinoeoga silhaeng jungieyo
+Agile methodology is effective,애자일 방법론이 효과적이에요,aejail bangbeomroni hyogwajeogieyo
+The tech stack is modern,기술 스택이 최신이에요,gisul seutaegi choesieyoThe code has been deployed successfully

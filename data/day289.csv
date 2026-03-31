@@ -1,0 +1,62 @@
+english_text,korean_text,romanization
+Weather forecast,일기예보,ilgiyebo
+Weather,날씨,nalssi
+Temperature,기온,gion
+High temperature,최고 기온,choego gion
+Low temperature,최저 기온,choejeo gion
+Humidity,습도,seupdo
+Wind speed,풍속,pungsok
+Wind direction,풍향,punghyang
+Air pressure,기압,giap
+UV index,자외선 지수,jaoeiseon jisu
+Fine dust,미세먼지,misemeonji
+Ultra fine dust,초미세먼지,chomisemeonji
+Air quality,공기질,gonggijil
+Sunny,맑음,malgeum
+Cloudy,흐림,heurim
+Partly cloudy,구름 조금,gureum jogeum
+Overcast,잔뜩 흐림,janteuk heurim
+Rain,비,bi
+Heavy rain,폭우,pogu
+Light rain,가랑비,garangbi
+Drizzle,이슬비,iseulbi
+Thunderstorm,뇌우,noeu
+Thunder,천둥,cheondung
+Lightning,번개,beongae
+Snow,눈,nun
+Heavy snow,폭설,pokseol
+Sleet,진눈깨비,jinnunkkaebi
+Hail,우박,ubak
+Fog,안개,angae
+Frost,서리,seori
+Ice,얼음,eoreum
+Wind,바람,baram
+Strong wind,강풍,gangpung
+Typhoon,태풍,taepung
+Heat wave,폭염,pogyeom
+Cold wave,한파,hanpa
+Yellow dust,황사,hwangsa
+Monsoon season,장마철,jangmacheol
+The rainy season started,장마가 시작됐어요,jangmaga sijakdwaesseoyo
+It is hot today,오늘 덥네요,oneul deomneyo
+It is cold today,오늘 춥네요,oneul chupneyo
+It is raining,비가 와요,biga wayo
+It is snowing,눈이 와요,nuni wayo
+The wind is strong,바람이 세요,barami seyo
+The weather is nice,날씨가 좋아요,nalssiga joayo
+The weather is bad,날씨가 안 좋아요,nalssiga an joayo
+Bring an umbrella,우산을 가져가세요,usaneul gajyeogaseyo
+Dress warmly,따뜻하게 입으세요,ttatteuthage ibeuseyo
+Stay cool,시원하게 지내세요,siwonhage jinaeseyo
+Check the weather forecast,일기예보를 확인하세요,ilgiyeboreul hwaginhaseyo
+It will rain tomorrow,내일 비가 올 거예요,naeil biga ol geoyeyo
+Clear skies expected,맑은 날씨가 예상돼요,malgeun nalssiga yesangdwaeyo
+Temperature will drop tonight,오늘 밤 기온이 내려가요,oneul bam gioni naeryeogayo
+Wear sunscreen,자외선 차단제를 바르세요,jaoeiseon chadanjereul bareuseyo
+The air quality is bad today,오늘 공기질이 나빠요,oneul gonggijiri nappayo
+Wear a mask outside,밖에서 마스크를 쓰세요,bakkeseo maseukeureul sseuseyo
+The heat wave continues,폭염이 계속돼요,pogyeomi gyesokdwaeyo
+Snow is expected this weekend,이번 주말에 눈이 올 거예요,ibeon jumale nuni ol geoyeyo
+The fog will clear by noon,안개가 낮까지 걷힐 거예요,angaega natkkaji geochil geoyeyo
+A storm is approaching,폭풍이 다가오고 있어요,pokpungi dagaogo isseoyo
+Stay safe in severe weather,악천후에 안전하게 지내세요,akcheonhue anjeonhage jinaeseyo

@@ -1,0 +1,61 @@
+english_text,korean_text,romanization
+Stock market,주식 시장,jusik sijang
+Stock exchange,증권 거래소,jeunggwon georaeso
+KOSPI,코스피,koseopi
+KOSDAQ,코스닥,kosedak
+Share,주식,jusik
+Stock price,주가,juga
+Opening price,시가,siga
+Closing price,종가,jongga
+High price,고가,goga
+Low price,저가,jeoga
+Trading volume,거래량,georaeryang
+Market capitalization,시가총액,sigachongaek
+Blue chip,우량주,uryangju
+Growth stock,성장주,seongjangju
+Value stock,가치주,gachiju
+Penny stock,소액주,soaekju
+IPO,기업 공개,gieop gonggae
+Listing,상장,sangjang
+Delisting,상장 폐지,sangjang pyeji
+Earnings report,실적 발표,siljeok balpyo
+Revenue,매출,maechul
+Net profit,순이익,suniik
+Dividend,배당금,baedanggeum
+Dividend yield,배당 수익률,baedang suingnyul
+PE ratio,주가수익비율,jugasuikbiyul
+Buy,매수,maesu
+Sell,매도,maedo
+Hold,보유,boyu
+Long position,매수 포지션,maesu pojisyeon
+Short selling,공매도,gongmaedo
+Margin trading,신용 거래,sinyong georae
+Stop loss,손절매,sonjeolmae
+Take profit,익절,ikjeol
+Limit order,지정가 주문,jijeongga jumun
+Market order,시장가 주문,sijangga jumun
+Day trading,단타 매매,danta maemae
+Swing trading,스윙 매매,seuwing maemae
+Long-term holding,장기 보유,janggi boyu
+Index fund,인덱스 펀드,indekseu pendeu
+ETF,이티에프,itiaepeu
+Sector,업종,eopjong
+Industry,산업,saneop
+Analyst,애널리스트,aeneolliseuteu
+Recommendation,추천,chucheon
+Target price,목표가,mokpyoga
+Resistance,저항선,jeohhangseon
+Support,지지선,jijiseon
+Chart,차트,chateu
+Candlestick,캔들,kaendeul
+Moving average,이동 평균선,idong pyeonggyunseon
+I bought stocks,주식을 샀어요,jusigeul sasseoyo
+The stock went up,주가가 올랐어요,jugaga ollasseoyo
+The stock went down,주가가 내렸어요,jugaga naeryeosseoyo
+Which stock should I buy,어떤 주식을 사야 할까요,eotteon jusigeul saya halkkayo
+The market is closed,시장이 마감됐어요,sijangi magamdwaesseoyo
+Check the stock price,주가 확인해 보세요,juga hwaginhae boseyo
+Don't panic sell,공포 매도하지 마세요,gongpo maedohaji maseyo
+Invest in what you know,아는 것에 투자하세요,aneun geose tujahaseyo
+The market is volatile today,오늘 시장이 변동이 커요,oneul sijangi byeondongi keoyo
+Patience is important,인내가 중요해요,innaega jungyohaeyo
