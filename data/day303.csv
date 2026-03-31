@@ -1,0 +1,61 @@
+english_text,korean_text,romanization
+Hospital admission,입원,ibwon
+Hospital discharge,퇴원,toewon
+Emergency room,응급실,eunggeuksil
+Patient,환자,hwanja
+Doctor,의사,uisa
+Nurse,간호사,ganhosa
+Hospital room,병실,byeongsil
+Single room,1인실,irilsil
+Shared room,다인실,dainsil
+IV drip,링거,ringgeo
+Blood test,혈액 검사,hyeoraek geomsa
+X-ray,엑스레이,ekseurei
+CT scan,씨티 촬영,ssiti chwaryeong
+MRI,엠알아이,emalai
+Surgery,수술,susul
+Anesthesia,마취,machwi
+Operating room,수술실,susulsil
+Recovery room,회복실,hoeboksil
+Visiting hours,면회 시간,myeonhoe sigan
+Medical chart,진료 기록,jillyo girok
+Prescription,처방전,cheobangjeong
+Medicine,약,yak
+Painkiller,진통제,jintongje
+Antibiotic,항생제,hangsaengje
+Insurance card,보험증,boheomjeung
+Medical insurance,의료 보험,uiryo boheom
+Hospital gown,환자복,hwanjabok
+Wheelchair,휠체어,hwilcheo
+Stretcher,들것,deulgeot
+Ambulance,구급차,gugeupcha
+Admission form,입원 서류,ibwon seoryu
+Consent form,동의서,donguiseo
+Guardian,보호자,bohoja
+Caregiver,간병인,ganbyeongin
+Hospital food,병원 식사,byeongwon siksa
+Call button,호출 벨,hochul bel
+Nurse station,간호사실,ganhosasil
+Temperature check,체온 측정,cheon cheukjeong
+Blood pressure check,혈압 측정,hyeorap cheukjeong
+Injection,주사,jusa
+Bandage,붕대,bungdae
+Stitches,봉합,bonghap
+Cast,깁스,gipseu
+Diagnosis,진단,jindan
+Prognosis,예후,yehu
+Treatment plan,치료 계획,chiryo gyehoek
+Physical therapy,물리 치료,mulli chiryo
+Rehabilitation,재활,jaehwal
+Outpatient,외래 환자,oerae hwanja
+Inpatient,입원 환자,ibwon hwanja
+Intensive care unit,중환자실,junghwanjasil
+Ward,병동,byeongdong
+Bed number,침대 번호,chimdae beonho
+Medical bill,진료비,jillyobi
+Copayment,본인 부담금,bonin budamgeum
+Get well soon,빨리 나으세요,ppalli naeuseyo
+I'm not feeling well,몸이 안 좋아요,momi an joayo
+Where does it hurt,어디가 아프세요,eodiga apeuseyo
+I need to be admitted,입원해야 해요,ibwonhaeya haeyo
+When can I go home,언제 퇴원할 수 있어요,eonje toewonhal su isseoyo

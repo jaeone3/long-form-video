@@ -1,0 +1,62 @@
+english_text,korean_text,romanization
+App,앱,aep
+Application,애플리케이션,aepeullikeisyeon
+Software,소프트웨어,sopeuteuweeo
+Install,설치하다,seolchihada
+Uninstall,삭제하다,sakjehada
+Update,업데이트,eobdeiteu
+Download,다운로드,daunrodeu
+App store,앱 스토어,aep seutoe
+Free app,무료 앱,muryo aep
+Paid app,유료 앱,yuryo aep
+In-app purchase,인앱 결제,inaep gyeolje
+Subscription,구독,gudok
+Monthly subscription,월 구독,wol gudok
+Cancel subscription,구독 취소,gudok chwiso
+Trial period,체험 기간,cheheom gigan
+User interface,사용자 인터페이스,sayongja inteopeiseu
+User experience,사용자 경험,sayongja gyeongheom
+Settings,설정,seoljeong
+Preferences,환경 설정,hwangyeong seoljeong
+Permissions,권한,gwonhan
+Allow notifications,알림 허용,allim heoyong
+Privacy settings,개인정보 설정,gaeinjeongbo seoljeong
+Log in,로그인,rogein
+Log out,로그아웃,rogeuaut
+Create account,계정 만들기,gyejeong mandeulgi
+Delete account,계정 삭제,gyejeong sakje
+Profile,프로필,peuropil
+Edit profile,프로필 수정,peuropil sujeong
+Push notification,푸시 알림,pusi allim
+Bug,버그,beogeu
+Crash,앱이 강제종료,aebi gangjejongyo
+The app crashed,앱이 튕겼어요,aebi twigkyeosseoyo
+Error message,오류 메시지,oryu mesiji
+Report a bug,버그 신고,beogeu singo
+Version,버전,beojeon
+Latest version,최신 버전,choesin beojeon
+Operating system,운영 체제,unyeong cheje
+iOS,아이오에스,aioeseu
+Android,안드로이드,andeuroideu
+Cloud sync,클라우드 동기화,keullaudeu donggihwa
+Backup,백업,baegop
+Restore,복원,bogwon
+Cache,캐시,kaesi
+Clear cache,캐시 삭제,kaesi sakje
+Storage space,저장 공간,jeojang gonggan
+This app is useful,이 앱 유용해요,i aep yuyonghaeyo
+I use this app every day,이 앱 매일 써요,i aep maeil sseoyo
+Recommend a good app,좋은 앱 추천해 주세요,joeun aep chucheonhae juseyo
+This app is free,이 앱은 무료예요,i aebeun muryoyeyo
+The app needs updating,앱 업데이트가 필요해요,aep eobdeiteuga piryohaeyo
+Delete unused apps,안 쓰는 앱을 삭제하세요,an sseuneun aebeul sakjehaseyo
+The app is loading slowly,앱 로딩이 느려요,aep rodingi neuryeoyo
+Check app reviews,앱 리뷰를 확인하세요,aep ribyureul hwaginhaseyo
+App developer,앱 개발자,aep gaebalja
+Open source software,오픈소스 소프트웨어,opeunsoseu sopeuteuweeo
+Dark mode,다크 모드,dakeu modeu
+Light mode,라이트 모드,raiteu modeu
+Turn on dark mode,다크 모드로 바꾸세요,dakeu modeuro bakkuseyo
+This app drains battery,이 앱이 배터리를 많이 써요,i aebi baeteoireul mani sseoyo
+Widgets,위젯,wijet
+Shortcut,바로가기,barogagi
