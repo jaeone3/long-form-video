@@ -22,13 +22,13 @@ class VideoConfig:
 
 @dataclass
 class FontConfig:
-    korean_font: str = "/Users/jeongseojin/Library/Fonts/NanumSquareRoundOTFEB.otf"
+    korean_font: str = "fonts/maruburi/TTF/MaruBuri-Bold.ttf"
     korean_size: int = 130
-    romanization_font: str = "/Users/jeongseojin/Library/Fonts/NanumSquareRoundOTFR.otf"
+    romanization_font: str = "fonts/maruburi/TTF/MaruBuri-Regular.ttf"
     romanization_size: int = 36
-    english_font: str = "/System/Library/Fonts/Avenir Next.ttc"
+    english_font: str = "fonts/maruburi/TTF/MaruBuri-Regular.ttf"
     english_size: int = 50
-    counter_font: str = "/System/Library/Fonts/Avenir Next.ttc"
+    counter_font: str = "fonts/maruburi/TTF/MaruBuri-Regular.ttf"
     counter_size: int = 24
 
 

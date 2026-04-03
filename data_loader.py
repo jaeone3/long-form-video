@@ -10,6 +10,7 @@ class Expression:
     english_text: str
     korean_text: str
     romanization: str
+    tts_korean: str = ""
 
 
 def load_expressions(path: str) -> list[Expression]:
@@ -24,11 +25,13 @@ def _load_csv(path: Path) -> list[Expression]:
     with open(path, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for i, row in enumerate(reader):
+            tts_kr = (row.get("tts_korean") or "").strip()
             expressions.append(Expression(
                 index=i,
                 english_text=row["english_text"].strip(),
                 korean_text=row["korean_text"].strip(),
                 romanization=row["romanization"].strip(),
+                tts_korean=tts_kr if tts_kr else row["korean_text"].strip(),
             ))
     _validate(expressions)
     return expressions

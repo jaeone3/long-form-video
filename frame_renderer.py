@@ -79,12 +79,12 @@ def _draw_radial_gradient_smooth(w: int, h: int, center_color: tuple, edge_color
 
 
 KOREAN_FONTS_BOLD = [
-    "/Users/jeongseojin/Library/Fonts/NanumSquareRoundOTFEB.otf",
-    "/Users/jeongseojin/Library/Fonts/NanumSquareRoundOTFB.otf",
+    "fonts/maruburi/TTF/MaruBuri-Bold.ttf",
+    "fonts/maruburi/TTF/MaruBuri-SemiBold.ttf",
 ]
 
 KOREAN_FONTS_REGULAR = [
-    "/Users/jeongseojin/Library/Fonts/NanumSquareRoundOTFR.otf",
+    "fonts/maruburi/TTF/MaruBuri-Regular.ttf",
 ]
 
 
@@ -136,12 +136,13 @@ def render_expression_frame(
     # === LAYOUT — matching reference tightly ===
 
     # --- Flag (circular, white bg) ---
-    flag_size = 210 + flag_size_var
-    flag_img = _get_flag_rect(flag_size)
-    flag_x = center_x - flag_img.width // 2
-    flag_y = int(video.height * 0.12) + y_offset
-    img.paste(flag_img, (flag_x, flag_y), flag_img)
-    draw = ImageDraw.Draw(img)
+    if os.path.exists(FLAG_PATH):
+        flag_size = 210 + flag_size_var
+        flag_img = _get_flag_rect(flag_size)
+        flag_x = center_x - flag_img.width // 2
+        flag_y = int(video.height * 0.12) + y_offset
+        img.paste(flag_img, (flag_x, flag_y), flag_img)
+        draw = ImageDraw.Draw(img)
 
     # --- English (regular weight, not bold, dark gray #333) ---
     en_y = int(video.height * 0.32) + y_offset

@@ -129,7 +129,7 @@ def generate_video_for_day(day: int, round_num: int = 1):
     final_name = f"day{day:03d}_final.mp4" if round_num == 1 else f"r{round_num}_day{day:03d}_final.mp4"
     final_path = str(day_dir / final_name)
     concatenate_segments(concat_list, final_path)
-    print(f"  ✅ Done! → {final_path}")
+    print(f"  Done! -> {final_path}")
 
     return final_path
 

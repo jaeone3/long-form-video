@@ -1,5 +1,6 @@
 import os
 import asyncio
+import time
 from pathlib import Path
 
 import edge_tts
@@ -12,11 +13,20 @@ EDGE_VOICE_KR = "ko-KR-SunHiNeural"
 
 
 async def _generate_tts_async(text: str, output_path: str, voice: str) -> str:
-    if os.path.exists(output_path):
+    if os.path.exists(output_path) and os.path.getsize(output_path) > 0:
         return output_path
-    communicate = edge_tts.Communicate(text, voice)
-    await communicate.save(output_path)
-    return output_path
+    for attempt in range(5):
+        try:
+            communicate = edge_tts.Communicate(text, voice)
+            await communicate.save(output_path)
+            return output_path
+        except Exception as e:
+            if attempt < 4:
+                wait = 2 ** attempt
+                print(f"    TTS retry in {wait}s: {e}")
+                await asyncio.sleep(wait)
+            else:
+                raise
 
 
 def generate_tts(text: str, output_path: str, voice: str) -> str:
@@ -38,9 +48,12 @@ def generate_all_tts(
         generate_tts(expr.english_text, en_path, EDGE_VOICE_EN)
         paths[(expr.index, "en")] = en_path
 
-        generate_tts(expr.korean_text, kr_path, EDGE_VOICE_KR)
+        generate_tts(expr.tts_korean, kr_path, EDGE_VOICE_KR)
         paths[(expr.index, "kr")] = kr_path
 
-        print(f"  TTS {expr.index + 1}/{len(expressions)}: {expr.english_text}")
+        try:
+            print(f"  TTS {expr.index + 1}/{len(expressions)}: {expr.english_text}")
+        except UnicodeEncodeError:
+            print(f"  TTS {expr.index + 1}/{len(expressions)}: (unicode text)")
 
     return paths

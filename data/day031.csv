@@ -1,19 +1,19 @@
-english_text,korean_text,romanization
-ㅋㅋㅋ means lol,ㅋㅋㅋ,keukeukeu
-ㅎㅎㅎ means haha,ㅎㅎㅎ,hahaha
-ㅠㅠ means crying,ㅠㅠ,yuyu
-ㅇㅇ means yes,ㅇㅇ,eung eung
-ㄴㄴ means no no,ㄴㄴ,nono
-ㄱㄱ means let's go,ㄱㄱ,gogo
-ㅇㅋ means okay,ㅇㅋ,eokei
-ㄷㄷ means trembling in shock,ㄷㄷ,deoldeol
-ㅈㅅ means sorry,ㅈㅅ,joesonghamnida
-ㄱㅅ means thanks,ㄱㅅ,gamsahamnida
-ㅂㅂ means bye bye,ㅂㅂ,baibai
-ㅊㅋ means congratulations,ㅊㅋ,chukahae
-ㄹㅇ means for real,ㄹㅇ,rieol
-ㅁㅊ means crazy,ㅁㅊ,michyeosseo
-ㅎㄷㄷ means shocked,ㅎㄷㄷ,heodeodeok
+english_text,korean_text,romanization,tts_korean
+ㅋㅋㅋ means lol,ㅋㅋㅋ,keukeukeu,키읔키읔키읔
+ㅎㅎㅎ means haha,ㅎㅎㅎ,hahaha,히읗히읗히읗
+ㅠㅠ means crying,ㅠㅠ,yuyu,유유
+ㅇㅇ means yes,ㅇㅇ,eung eung,응응
+ㄴㄴ means no no,ㄴㄴ,nono,니은니은
+ㄱㄱ means let's go,ㄱㄱ,gogo,기역기역
+ㅇㅋ means okay,ㅇㅋ,eokei,이응키읔
+ㄷㄷ means trembling in shock,ㄷㄷ,deoldeol,디귿디귿
+ㅈㅅ means sorry,ㅈㅅ,joesonghamnida,지읒시옷
+ㄱㅅ means thanks,ㄱㅅ,gamsahamnida,기역시옷
+ㅂㅂ means bye bye,ㅂㅂ,baibai,비읍비읍
+ㅊㅋ means congratulations,ㅊㅋ,chukahae,치읓키읔
+ㄹㅇ means for real,ㄹㅇ,rieol,리을이응
+ㅁㅊ means crazy,ㅁㅊ,michyeosseo,미음치읓
+ㅎㄷㄷ means shocked,ㅎㄷㄷ,heodeodeok,히읗디귿디귿
 What are you doing,뭐해,mwohae
 Where are you,어디야,eodiya
 Did you eat,밥 먹었어?,bap meogeosseo
@@ -28,7 +28,7 @@ I am on my way,가는 중,ganeun jung
 Understood,알겠어,algesseo
 I see,아 그렇구나,a geureokuna
 Really?,진짜?,jinjja
-Seriously?,ㄹㅇ?,rieol
+Seriously?,ㄹㅇ?,rieol,리을이응?
 No way,헐,heol
 That is funny,웃기다,utkkida
 Oh my god,대박,daebak
@@ -52,7 +52,7 @@ Hurry up,빨리 와,ppalli wa
 Are you there,거기 있어?,geogi isseo
 Did you see that,봤어?,bwasseo
 Check your messages,메시지 확인해,mesiji hwaginhae
-LOL for real,ㅋㅋ 진짜,keukeu jinjja
+LOL for real,ㅋㅋ 진짜,keukeu jinjja,키읔키읔 진짜
 I'm logging off,나 간다,na ganda
 Talk to you later,나중에 얘기하자,najunge yaegihaja
 Hold on a second,잠깐만,jamkkanman
